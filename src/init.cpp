@@ -1,5 +1,11 @@
 #include <custom.h>
 
+__attribute__((weak)) void OB_VarInit(OB_Context *ctx)
+{
+    // Empty Implementation
+    // Implement & Override this function in renderer when needed
+}
+
 OB_Context *OB_InitContext()
 {
     OB_Context *context = new OB_Context();
@@ -21,6 +27,8 @@ OB_Context *OB_InitContext()
     };
 
 #endif
+
+    OB_VarInit(context);
 
     return context;
 }
