@@ -120,7 +120,7 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
 
     // Create window
-    GLFWwindow *window = glfwCreateWindow(640, 480, "Modern OpenGL", NULL, NULL);
+    GLFWwindow *window = glfwCreateWindow(1200, 900, "Modern OpenGL", NULL, NULL);
     if (!window)
     {
         std::cerr << "Failed to create GLFW window" << std::endl;
