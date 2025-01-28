@@ -19,8 +19,8 @@
 void OB_Render(OB_Context *context);
 
 #ifdef OB_ENABLE_SHADER
-#define OB_FRAGSHADER_PATH "shaders/fragment.glsl"
-#define OB_VERTSHADER_PATH "shaders/vertex.glsl"
+#define OB_FRAGSHADER_PATH "shaders/fg_default.glsl"
+#define OB_VERTSHADER_PATH "shaders/vt_default.glsl"
 
 // OB_ENABLE_SHADER
 #endif

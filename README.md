@@ -1,22 +1,22 @@
-# OpenGl Base structure
+# OpenGl Exercises and Experiments
 
-this is a base structure for opengl projects
+This is a collection of OpenGL exercises and experiments. The goal is to learn and understand OpenGL by doing experiments and exercises.
+This project is templeted from my base templete [opengl-base](https://github.com/iamabhi747/opengl-base)
 
-Can be run in 2 modes:
-- Shader mode: uses shaders to render a triangle
-- Draw mode: uses opengl functions to render POINTS, LINES, TRIANGLES, etc.. (default)
+## Experiment Categories
+- Understanding drawing algorithms (for lines, circles, bezier curves, etc) using Drawmode with GL_POINTS
 
-Switch between modes by commeting / uncommeting the `OB_ENABLE_SHADERS` in the `include/ob.h` file
+## Experiments
+- Default Blank Window
 
-DEBUG mode is enabled by default, to disable it, comment `OB_DEBUG` in the `include/ob.h` file
 
-## USAGE
-- Impliment the `void OB_InitContext()` function in the `src/init.cpp` file to initialize your context
-- Implement the `void OB_Render()` function in the `src/render.cpp` file to use Draw mode
-- Implement the fragment and vertex shaders in the `shaders` folder to use Shader mode
-- Also add data in context.Vertices and context.Elements in the `OB_InitContext()` function to use Shader mode
+>### ✅ tested on macos
 
-✅ tested on macos
+## Repository Structure
+- `src/` - Contains the source code for the various algorithms
+- `renderer/` - Contains the source code for the experiments done using Draw mode (each file is a seperate renderer [expreriment])
+- `shaders/` - Contains the shaders for the experiments done using Shader mode
+- `include/` - Contains the header files base setup
 
 ## Getting Started
 
@@ -24,6 +24,16 @@ DEBUG mode is enabled by default, to disable it, comment `OB_DEBUG` in the `incl
 ```bash
 brew install glfw3 glew
 ```
+
+### To switch between Draw Mode and Shader Mode
+comment / uncomment out the `#define OB_ENABLE_SHADER` in `include/ob.h` to switch between Draw Mode and Shader Mode
+
+### To Select the Experiment in Draw Mode
+update the RENDERER variable in `Makefile` to the file name of the renderer you want to run
+
+### To Select the Experiment in Shader Mode
+update the shaders name in `include/ob.h` to the shaders you want to run
+
 
 ### Build & Run
 ```bash

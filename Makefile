@@ -1,4 +1,5 @@
-SOURCES = main.cpp $(wildcard src/*.cpp)
+RENDERER = renderer/default.cpp
+SOURCES = main.cpp $(RENDERER) $(wildcard src/*.cpp)
 
 CC = g++
 OBJS = $(addprefix build/, $(SOURCES:.cpp=.o))
