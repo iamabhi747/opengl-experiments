@@ -8,7 +8,11 @@ This project is templeted from my base templete [opengl-base](https://github.com
 
 ## Experiments
 - Default Blank Window
+- Lines using DDA & Bresenham Algorithm
 
+## Algorithms
+- DDA Line Drawing Algorithm
+- Bresenham Line Drawing Algorithm
 
 >### ✅ tested on macos
 
