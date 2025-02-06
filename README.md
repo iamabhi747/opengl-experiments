@@ -10,6 +10,7 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Default Blank Window
 - Lines using DDA & Bresenham Algorithm
 - Circles using Midpoint & Bresenham Algorithm
+- Circle Art: Illusive pattern using circles
 
 ## Algorithms
 - DDA Line Drawing Algorithm
