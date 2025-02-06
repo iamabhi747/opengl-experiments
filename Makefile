@@ -10,7 +10,8 @@ CFLAGS = --std=c++17 -arch arm64 \
 	-Iinclude
 LDFLAGS = -L/opt/homebrew/Cellar/glfw/3.4/lib \
 	-L/opt/homebrew/Cellar/glew/2.2.0_1/lib \
-	-lglfw -lglew -framework OpenGL
+	-lglfw -lglew -framework OpenGL \
+	-framework ApplicationServices -framework CoreFoundation
 
 TARGET = ./build/main
 

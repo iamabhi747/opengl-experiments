@@ -42,6 +42,9 @@ update the RENDERER variable in `Makefile` to the file name of the renderer you 
 ### To Select the Experiment in Shader Mode
 update the shaders name in `include/ob.h` to the shaders you want to run
 
+### To Take Screenshot
+call OB_CaptureFrame(filepath, context), it will save the current frame to the filepath
+
 
 ### Build & Run
 ```bash

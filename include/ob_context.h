@@ -24,6 +24,13 @@ struct OB_Context
 // OB_ENABLE_SHADER
 #endif
 
+    // GLFW Window
+    GLFWwindow *window;
+
+    // Screenshot
+    bool captureFrame;
+    std::string screenshotPath;
+
     //// General Purpose Variables
     // Counters
     int i, j, k, l, m, n;

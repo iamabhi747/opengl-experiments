@@ -149,6 +149,7 @@ int main()
 
     // Init OpenglBase
     OB_Context *context = OB_InitContext();
+    context->window = window;
 
 #ifdef OB_ENABLE_SHADER
 
@@ -201,6 +202,12 @@ int main()
         glEnd();
 
 #endif
+
+        if (context->captureFrame)
+        {
+            OB_SaveScreenshot(context->screenshotPath, context);
+            context->captureFrame = false;
+        }
 
         // Swap buffers and poll events
         glfwSwapBuffers(window);
