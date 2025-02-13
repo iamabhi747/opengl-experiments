@@ -185,6 +185,8 @@ int main()
 
 #endif
 
+    glPointSize(context->pointsize);
+
     // Main loop
     while (!glfwWindowShouldClose(window))
     {

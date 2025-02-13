@@ -31,6 +31,8 @@ struct OB_Context
     bool captureFrame;
     std::string screenshotPath;
 
+    GLfloat pointsize = 3.0f;
+
     //// General Purpose Variables
     // Counters
     int i, j, k, l, m, n;
