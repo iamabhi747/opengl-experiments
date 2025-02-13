@@ -11,12 +11,15 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Lines using DDA & Bresenham Algorithm
 - Circles using Midpoint & Bresenham Algorithm
 - Circle Art: Illusive pattern using circles
+- Ellipses using Midpoint Algorithm
+- Ellipse Art: Toyota Logo using ellipses
 
 ## Algorithms
 - DDA Line Drawing Algorithm
 - Bresenham Line Drawing Algorithm
 - Midpoint Circle Drawing Algorithm
 - Breseham Circle Drawing Algorithm
+- Midpoint Ellipse Drawing Algorithm
 
 >### ✅ tested on macos
 
