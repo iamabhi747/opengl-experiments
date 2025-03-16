@@ -5,6 +5,7 @@ This project is templeted from my base templete [opengl-base](https://github.com
 
 ## Experiment Categories
 - Understanding drawing algorithms (for lines, circles, bezier curves, etc) using Drawmode with GL_POINTS
+- Understanding transformations
 
 ## Experiments
 - Default Blank Window
@@ -13,6 +14,7 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Circle Art: Illusive pattern using circles
 - Ellipses using Midpoint Algorithm
 - Ellipse Art: Toyota Logo using ellipses
+- Rook 2D: Rook using trangles & lines, demonstrating 2D transformations
 
 ## Algorithms
 - DDA Line Drawing Algorithm
@@ -20,6 +22,7 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Midpoint Circle Drawing Algorithm
 - Breseham Circle Drawing Algorithm
 - Midpoint Ellipse Drawing Algorithm
+- 2D Transformations (Translation, Rotation, Scaling, Shearing, Reflection)
 
 >### ✅ tested on macos
 
