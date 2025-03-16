@@ -11,7 +11,7 @@ OB_Context *OB_InitContext()
     OB_Context *context = new OB_Context();
 
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);   // Set background to black
-    glOrtho(0.0, 1200, 0.0, 900, -1.0, 1.0); // Set orthographic projectio
+    glOrtho(0.0, 1200, 0.0, 900, -450, 450); // Set orthographic projectio
 
 #ifdef OB_ENABLE_SHADER
 

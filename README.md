@@ -15,6 +15,7 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Ellipses using Midpoint Algorithm
 - Ellipse Art: Toyota Logo using ellipses
 - Rook 2D: Rook using trangles & lines, demonstrating 2D transformations
+- House 3D: demonstrating 3D transformations
 
 ## Algorithms
 - DDA Line Drawing Algorithm
@@ -23,6 +24,7 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Breseham Circle Drawing Algorithm
 - Midpoint Ellipse Drawing Algorithm
 - 2D Transformations (Translation, Rotation, Scaling, Shearing, Reflection)
+- 3D Transformations (Translation, Rotation, Scaling, Reflection)
 
 >### ✅ tested on macos
 
