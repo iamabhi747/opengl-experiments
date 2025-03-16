@@ -45,8 +45,11 @@ struct OB_Context
     // Positions
     OB_Point pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9, pos10;
     // General Purpose Pointers/Arrays
-    float *fptr1, *fptr2, *fptr3, *fptr4, *fptr5, *fptr6, *fptr7, *fptr8, *fptr9, *fptr10;
-    int *iptr1, *iptr2, *iptr3, *iptr4, *iptr5, *iptr6, *iptr7, *iptr8, *iptr9, *iptr10;
+    GLfloat *fptr1, *fptr2, *fptr3, *fptr4, *fptr5;
+    GLint   *iptr1, *iptr2, *iptr3, *iptr4, *iptr5;
+    GLuint  *uptr1, *uptr2, *uptr3, *uptr4, *uptr5;
+    // General Purpose Booleans
+    bool b1, b2, b3, b4, b5, b6, b7, b8;
     
 };
 
