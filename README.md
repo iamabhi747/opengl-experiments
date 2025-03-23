@@ -26,6 +26,15 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - 2D Transformations (Translation, Rotation, Scaling, Shearing, Reflection)
 - 3D Transformations (Translation, Rotation, Scaling, Reflection)
 
+## Utilities
+- OB_CaptureFrame   : To take screenshot of the current frame
+- GetWidthHeight    : To get the width and height of the window
+- GetPixels         : To get the pixels of the window
+- RenderPixels      : To render the pixels to the window
+- GetPixelIndex     : To get the index of the pixel in the pixel array
+- getPixelColor     : To get the color of the pixel in the pixel array
+- setPixelColor     : To set the color of the pixel in the pixel array
+
 >### ✅ tested on macos
 
 ## Repository Structure

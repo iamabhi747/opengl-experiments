@@ -148,8 +148,7 @@ int main()
     std::cout << "OpenGL Version: " << glGetString(GL_VERSION) << std::endl;
 
     // Init OpenglBase
-    OB_Context *context = OB_InitContext();
-    context->window = window;
+    OB_Context *context = OB_InitContext(window);
 
 #ifdef OB_ENABLE_SHADER
 

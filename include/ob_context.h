@@ -7,7 +7,7 @@
 
 struct OB_Color
 {
-    float r, g, b, a;
+    GLuint r, g, b, a;
 };
 
 struct OB_Point
@@ -26,6 +26,7 @@ struct OB_Context
 
     // GLFW Window
     GLFWwindow *window;
+    int width, height;
 
     // Screenshot
     bool captureFrame;
@@ -54,7 +55,7 @@ struct OB_Context
 };
 
 void OB_VarInit(OB_Context *ctx);
-OB_Context *OB_InitContext();
+OB_Context *OB_InitContext(GLFWwindow *_window);
 
 // OB_CONTEXT_H
 #endif

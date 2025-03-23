@@ -2,6 +2,15 @@
 #define CUSTOM_H
 #include <ob.h>
 
+void GetWidthHeight(OB_Context *context);
+std::vector<GLubyte> GetPixels(OB_Context *context);
+void RenderPixels(OB_Context *context, std::vector<GLubyte>& pixels);
+int GetPixelIndex(int x, int y, int width);
+bool Check2Pixels(int x1, int y1, int x2, int y2, std::vector<GLubyte>& pixels, int width);
+OB_Color getPixelColor(int x, int y, std::vector<GLubyte>& pixels, int width);
+void setPixelColor(int x, int y, OB_Color color, std::vector<GLubyte>& pixels, int width);
+bool Check2Colors(OB_Color c1, OB_Color c2);
+
 void DDA_Line(int x0, int y0, int x1, int y1);
 void Breseham_Line(int x0, int y0, int x1, int y1);
 void Midpoint_Circle(int xc, int yc, int r);
