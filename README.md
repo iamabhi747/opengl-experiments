@@ -16,6 +16,7 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Ellipse Art: Toyota Logo using ellipses
 - Rook 2D: Rook using trangles & lines, demonstrating 2D transformations
 - House 3D: demonstrating 3D transformations
+- Fill Art: Fill the shapes using Boundry Fill & Flood Fill Algorithm
 
 ## Algorithms
 - DDA Line Drawing Algorithm
@@ -25,6 +26,8 @@ This project is templeted from my base templete [opengl-base](https://github.com
 - Midpoint Ellipse Drawing Algorithm
 - 2D Transformations (Translation, Rotation, Scaling, Shearing, Reflection)
 - 3D Transformations (Translation, Rotation, Scaling, Reflection)
+- Boundry Fill Algorithm
+- Flood Fill Algorithm
 
 ## Utilities
 - OB_CaptureFrame   : To take screenshot of the current frame

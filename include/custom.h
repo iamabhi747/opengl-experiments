@@ -41,5 +41,8 @@ void ApplyTransformation3D(GLfloat transformationMatrix[4][4], GLfloat *x, GLflo
 void ApplyTransformation3D(GLfloat transformationMatrix[4][4], GLfloat *vertices, GLint size);
 void Transform3D_thread(OB_Context *context, GLfloat *vertices, GLint size);
 
+void BoundaryFill(int x, int y, OB_Color fill_color, OB_Color boundary_color, std::vector<GLubyte>& pixels, int width, int height);
+void FloodFill(int x, int y, OB_Color fill_color, OB_Color boundary_color, std::vector<GLubyte>& pixels, int width, int height);
+
 // CUSTOM_H
 #endif
