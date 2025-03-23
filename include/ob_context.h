@@ -8,6 +8,41 @@
 struct OB_Color
 {
     GLuint r, g, b, a;
+
+    OB_Color(GLuint _r, GLuint _g, GLuint _b, GLuint _a)
+    {
+        r = _r;
+        g = _g;
+        b = _b;
+        a = _a;
+    }
+
+    OB_Color()
+    {
+        r = 0;
+        g = 0;
+        b = 0;
+        a = 0;
+    }
+
+    void setAsGLColor()
+    {
+        glColor3f(r, g, b);
+    }
+
+    OB_Color operator=(OB_Color color)
+    {
+        r = color.r;
+        g = color.g;
+        b = color.b;
+        a = color.a;
+        return *this;
+    }
+
+    bool operator==(OB_Color color)
+    {
+        return r == color.r && g == color.g && b == color.b;
+    }
 };
 
 struct OB_Point
